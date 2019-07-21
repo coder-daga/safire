@@ -27,7 +27,7 @@ const createMessage = (request, response) => {
     if (error) {
       throw error
     }
-    response.status(201).send(`${results.rowCount} Row added`)
+    response.status(201).send(`${results.rowCount} row added successfully!`)
   })
 }
 
